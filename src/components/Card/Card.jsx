@@ -1,15 +1,22 @@
 import React from 'react';
+import STYLES from './Card.scss';
+
+const getClassName = (className) => STYLES[className] || 'UNKNOWN';
 
 const internationalNumberFormat = new Intl.NumberFormat('en-EU');
 
 const Card = ({ title, tags, image, url, price }) => (
-  <div>
+  <article className={getClassName('Card')}>
+    <img
+      src={image}
+      alt={title}
+      width="50%"
+      height="auto"
+      className={getClassName('Card__image')}
+    />
     <div>{title}</div>
-    <div>{tags}</div>
-    <img src={image} alt={title} width="50" height="60" />
-    <div>{url}</div>
     <div>€{internationalNumberFormat.format(price)}</div>
-  </div>
+  </article>
 );
 
 export default Card;

@@ -1,0 +1,14 @@
+@import '../../styles/mixin.scss';
+@import '../../styles/variables.scss';
+.Card {
+  border: 1px solid #e5e6ea;
+  box-sizing: border-box;
+  flex-basis: 50%;
+  height: 60vh;
+
+  &__image {
+    height: 45vh;
+    width: 35vh;
+    object-fit: contain;
+  }
+}

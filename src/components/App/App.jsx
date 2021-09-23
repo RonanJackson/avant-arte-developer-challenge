@@ -17,16 +17,18 @@ const App = () => {
       <Header />
       <main className={getClassName('App__main')}>
         {data ? (
-          data?.works.map((item) => (
-            <Card
-              key={item.id}
-              title={item.title}
-              tags={item.tags}
-              image={item.image}
-              url={item.url}
-              price={item.price}
-            />
-          ))
+          <section className={getClassName('App__cards')}>
+            {data?.works.map((item) => (
+              <Card
+                key={item.id}
+                title={item.title}
+                tags={item.tags}
+                image={item.image}
+                url={item.url}
+                price={item.price}
+              />
+            ))}
+          </section>
         ) : (
           <p>There was a problem loading our artwork...</p>
         )}
