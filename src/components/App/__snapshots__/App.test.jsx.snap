@@ -9,7 +9,7 @@ exports[`App should render correctly 1`] = `
     className="App__main"
   >
     <p>
-      Your turn good luck 👍 
+      There was a problem loading our artwork...
     </p>
   </main>
 </div>
