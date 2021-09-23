@@ -10,8 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test",
-    "test-update-snapshots": "CI=true react-scripts test -u"
+    "test": "CI=true react-scripts test -u",
+    "update-snapshots": "CI=true react-scripts test -u"
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
