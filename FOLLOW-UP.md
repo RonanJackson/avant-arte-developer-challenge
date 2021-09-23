@@ -16,10 +16,10 @@ I mainly spend time doing backend at Skyscanner and haven't touched frontend in 
 
 I liked this test! It challenged me quite a lot more than others due to the frontend heavy aspect without any styling libraries. As mentioned before, I don't get to do UI much in my day job so this was fun to try and get working... I hope it was a good enough effort.
 
-### Q) Question for Avant Arte
+### Q) Question/Comments for Avant Arte
 
 - I found it odd that this project uses backpack-react-scripts which comes from Skyscanner, any particular reason for doing so?
 - It would have been nice to attach a backend properly so I could flex a bit more there (as the role is full stack, not frontend only). I have linked a previous takehome assignment above which you can use as an indicator.
+- I didn't quite understand the show currency in euros part. I just stuck a € symbol in front of the number. The screenshot implied the currency might be USD and therefore needs attaching to a currency converter API, but I don't think that's probably what you meant /are lookin for! Would have to dig out an old side project of mine: https://airtable.com/marketplace/blk2Cd3budAdoP7Vb/currency-converter ha!
 
-P.S. there are some typos in the README:
-'sollution'
+P.S. there are some typos in the README. I have fixed them all in this takehome if you wish to update it.
