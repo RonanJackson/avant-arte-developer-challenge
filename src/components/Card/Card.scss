@@ -1,14 +1,38 @@
 @import '../../styles/mixin.scss';
 @import '../../styles/variables.scss';
 .Card {
-  border: 1px solid #e5e6ea;
+  border: 1px solid $light;
   box-sizing: border-box;
   flex-basis: 50%;
-  height: 60vh;
+  height: 55vh;
+  // max-width: 30vh;
+  padding: 3vh;
+
+  h1 {
+    color: $storm;
+  }
+
+  h2 {
+    color: $cloud;
+    font-size: medium;
+    margin-top: -1vh;
+  }
 
   &__image {
-    height: 45vh;
-    width: 35vh;
+    height: 35vh;
+    width: 25vh;
     object-fit: contain;
+    padding: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  &__status-box {
+    padding: 0.7vh;
+    border: 1px solid $light;
+    max-width: fit-content;
+    font-size: smaller;
+    float: right;
   }
 }

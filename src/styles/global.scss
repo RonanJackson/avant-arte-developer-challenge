@@ -1,18 +1,15 @@
 @import '../styles/variables.scss';
 
-
-  
-html{
-    font-size: 12px;
+html {
+  font-size: 12px;
 }
 
-  
-body{
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 400;
-	font-size: 1em;
-	margin: 0;
-	text-rendering: optimizeLegibility;
-    font-family:$fontStandard;
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: $fontStandard;
 }
