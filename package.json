@@ -10,11 +10,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test -u",
+    "test": "CI=true react-scripts test",
     "update-snapshots": "CI=true react-scripts test -u"
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.0",
     "axios": "^0.21.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

@@ -10,78 +10,7 @@ exports[`Card should render correctly 1`] = `
   >
     <div
       className="Card__status-box"
-      style={
-        Object {
-          "visibility": "visible",
-        }
-      }
-    >
-      <span>
-        -
-      </span>
-    </div>
-  </div>
-  <img
-    alt="title"
-    className="Card__image"
-    src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/SUSUMU_02copy_4488d8f1-6536-49ef-a310-adec11d2213d_500x.jpg?v=1613558884"
-  />
-  <h1>
-    title
-  </h1>
-  <h2>
-    €
-    4,000
-  </h2>
-</article>
-`;
-
-exports[`Card should render correctly with coming soon tag 1`] = `
-<article
-  className="Card"
-  onClick={[Function]}
->
-  <div
-    className="Card__status-header"
-  >
-    <div
-      className="Card__status-box"
-      style={
-        Object {
-          "visibility": "visible",
-        }
-      }
-    >
-      <span>
-        Coming Soon
-      </span>
-    </div>
-  </div>
-  <img
-    alt="title"
-    className="Card__image"
-    src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/SUSUMU_02copy_4488d8f1-6536-49ef-a310-adec11d2213d_500x.jpg?v=1613558884"
-  />
-  <h1>
-    title
-  </h1>
-  <h2>
-    €
-    4,000
-  </h2>
-</article>
-`;
-
-exports[`Card should render correctly with no tag 1`] = `
-<article
-  className="Card"
-  onClick={[Function]}
->
-  <div
-    className="Card__status-header"
-  >
-    <div
-      className="Card__status-box"
+      data-testid="tag"
       style={
         Object {
           "visibility": "visible",

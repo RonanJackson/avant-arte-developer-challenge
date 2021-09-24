@@ -2,7 +2,7 @@
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
-I would have added a proper testing library such as react-testing-library. I'm not well versed in frontend testing, so this is very new to me. Backend testing is much easier :D
+I would probably move the json file to an actual backend such that it can be easily swapped out, rather than requiring a re-deploy to change the catalog of works.
 
 ### Q) Which parts are you most proud of? And why?
 
@@ -10,7 +10,7 @@ I managed to get the UI to look almost identical to the expected design. I haven
 
 ### Q) Which parts did you spend the most time with? What did you find most difficult?
 
-I mainly spend time doing backend at Skyscanner and haven't touched frontend in a good while. I want to get back into it a lot more, so figuring out how to get the flex wrap cards to behave as I wanted took some time. It looks ok in the desired specifications, but looks terrible on a larger screen!
+I mainly spend time doing backend at Skyscanner and haven't touched frontend in a good while. I want to get back into it a lot more, so figuring out how to get the flex wrap cards to behave as I wanted took some time. It looks ok in the desired specifications!
 
 ### Q) How did you find the test overall? Did you have any issues or have difficulties completing?If you have any suggestions on how we can improve the test, we'd love to hear them.
 

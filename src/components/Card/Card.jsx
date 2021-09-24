@@ -21,7 +21,11 @@ const Card = ({ title, tags, image, url, price }) => {
       onClick={() => window.open(url, '_blank')}
     >
       <div className={getClassName('Card__status-header')}>
-        <div className={getClassName('Card__status-box')} style={tagVisibility}>
+        <div
+          className={getClassName('Card__status-box')}
+          data-testid="tag"
+          style={tagVisibility}
+        >
           <span>{tagText}</span>
         </div>
       </div>

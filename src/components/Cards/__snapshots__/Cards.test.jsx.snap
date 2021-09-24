@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards with works data should render correctly 1`] = `
+<section
+  className="Cards__main"
+>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Paul Insect"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/TheReflection-Red_f4f48005-c954-43ad-afab-31ea7a49f9ef_500x.png?v=1610713168"
+    />
+    <h1>
+      Paul Insect
+    </h1>
+    <h2>
+      €
+      3,700
+    </h2>
+  </article>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Yue Minjun"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/PRINT_1A_online_500x.jpg?v=1608632645"
+    />
+    <h1>
+      Yue Minjun
+    </h1>
+    <h2>
+      €
+      7,500
+    </h2>
+  </article>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Susumu Kamijo"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/SUSUMU_02copy_4488d8f1-6536-49ef-a310-adec11d2213d_500x.jpg?v=1613558884"
+    />
+    <h1>
+      Susumu Kamijo
+    </h1>
+    <h2>
+      €
+      4,000
+    </h2>
+  </article>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Lu Yang"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/Misc_Image_Opt_x2_5bbdcff0-bb30-4920-b458-8ad0424be0bc_500x.png?v=1578932906"
+    />
+    <h1>
+      Lu Yang
+    </h1>
+    <h2>
+      €
+      2,000
+    </h2>
+  </article>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Paul Insect"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/PRINT_4A_online_afd0023e-5666-4fe7-ab97-58c0d183b98e_500x.jpg?v=1610713268"
+    />
+    <h1>
+      Paul Insect
+    </h1>
+    <h2>
+      €
+      650
+    </h2>
+  </article>
+  <article
+    className="Card"
+    onClick={[Function]}
+  >
+    <div
+      className="Card__status-header"
+    >
+      <div
+        className="Card__status-box"
+        data-testid="tag"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <span>
+          -
+        </span>
+      </div>
+    </div>
+    <img
+      alt="Elmgreen & Dragset"
+      className="Card__image"
+      src="//cdn.shopify.com/s/files/1/0260/5524/5923/products/ELGREEN_DRAGSET_01_online_b7358648-4f6d-44a5-8e14-e5ce272f5dba_500x.jpg?v=1605101928"
+    />
+    <h1>
+      Elmgreen & Dragset
+    </h1>
+    <h2>
+      €
+      7,500
+    </h2>
+  </article>
+</section>
+`;
