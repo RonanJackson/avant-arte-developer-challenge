@@ -1,16 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App should render correctly 1`] = `
-<div
-  className="App"
+<QueryClientProvider
+  client={
+    QueryClient {
+      "defaultOptions": Object {},
+      "mutationCache": MutationCache {
+        "config": Object {},
+        "listeners": Array [],
+        "mutationId": 0,
+        "mutations": Array [],
+      },
+      "mutationDefaults": Array [],
+      "queryCache": QueryCache {
+        "config": Object {},
+        "listeners": Array [],
+        "queries": Array [],
+        "queriesMap": Object {},
+      },
+      "queryDefaults": Array [],
+    }
+  }
 >
-  <Header />
-  <main
-    className="App__main"
+  <div
+    className="App"
   >
-    <p>
-      There was a problem loading our artwork...
-    </p>
-  </main>
-</div>
+    <Header />
+    <main
+      className="App__main"
+    >
+      <Cards />
+    </main>
+  </div>
+</QueryClientProvider>
 `;

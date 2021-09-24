@@ -49,5 +49,3 @@ describe('Card', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-
-// TODO all the cases of hidden tags with different strings etc
