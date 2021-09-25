@@ -17,18 +17,14 @@ const Cards = () => {
   return (
     <section className={getClassName('Cards__main')}>
       {data?.works.map((item) => (
-        <ul>
-          <li key={item.id}>
-            <Card
-              id={item.id}
-              title={item.title}
-              tags={item.tags}
-              image={item.image}
-              url={item.url}
-              price={item.price}
-            />
-          </li>
-        </ul>
+        <Card
+          key={item.id}
+          title={item.title}
+          tags={item.tags}
+          image={item.image}
+          url={item.url}
+          price={item.price}
+        />
       ))}
     </section>
   );
